@@ -14,14 +14,23 @@ h1{
     border-bottom: 2px solid black;
 }
 p.greentea{
-    color: green
+    color: green;
 }
 p.raspberry{
-    color: blue
+    color: blue;
 }
 p.blueberry{
-    color: blueviolet
+    color: blueviolet;
 }
 p.cranberry{
-    color: red
+    color: red;
+}
+input[type="text"]{
+    border:2px solid black;
+}
+input:focus{
+    border:2px solid gray
+}
+a:hover{
+    color:red
 }
