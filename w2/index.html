@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link type="text/css" rel="stylesheet" href="lab2.css">
     <title>main page</title>
-    <link type="text/css" rel="stylesheet" href="../w3/index.css">
-    <style>
-        .highlight{background-color: chartreuse;}
-    </style>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="lab2.css">
-    </head>
+    <header>
+        <h1><b>Fundamental Web Technologies</b></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#js">JavaScript</a></li>
+        </ul>
+    </nav>
     <body>
-        <main>
-            <h1>top</h1>
-            <p>this is the top of the page.</p>
-        </main>
-        <aside>
-            <h2>Related stuff</h2>
-            <ul>
-                <li><a href="#">html</a></li>
-                <li><a href="#">css</a></li>
-                <li><a href="#">js</a></li>
-            </ul>
-        </aside>
-        <p class="highlight">highlighted p</p>
-        <div class="highlight">highlighted div</div>
-        <input type="text" placeholder="text input">
-        <input type="password" placeholder="password">
+        <section id="html"><h2>HTML</h2></section>
+        <p>
+            HTML is the content of the webpage. It utilizes CSS and JS to make the webpage look
+            more neat. <br/>
+            Below is an example of HTML code which creates a clickable link with the text
+            "favorite website" that redirects you to https://mozilla.org/
+            <img src="element.png"><br/>
+            Most IDEs support HTML but VS Code is the most popular free option many uses.
+            It is not limited to VS Code but emmet.io helps a lot in writing HTML. <br/>
+            <code>! + enter</code> creates a default HTML start which is really helpful!
+        </p>
+        <section id="css"><h2>CSS</h2></section>
+        <p>
+            CSS is the styling sheet used in HTML. CSS is the most popular choice of style sheets
+            but there are many alternatives out there.<br/>
+            Below is an example of h1 (header type one) having a font color red and font size of 5em.
+            <img src="css.png"><br/>
+        </p>
+        <section id="js"><h2>JavaScript</h2></section>
+        <p>
+            JavaScript, commonly know as JS is a popular webpage programming language. We have not yet
+            started on learning JavaScript however it is very different from HTMl, CSS and commonly
+            confused with Java.<br/>
+            <img src="script.png"><br/>
+            I am not 100% sure but the above looks to be an example of a button that shows a popup
+            on the browser that asks for a name.
+        </p>
     </body>
-    <footer>
-        <a href="../w1/week1.html">week1</a>
-        <a href="../w3/lab3.html">week3</a>
-    </footer>
 </html>
